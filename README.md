@@ -14,6 +14,28 @@ The only thing this extension does for now is to reformat a log files.
 
 Users appreciate release notes as you update your extension.
 
+## To install locally
+
+```sh
+npm install -g vsce
+vsce package
+```
+
+1. Open the Extensions View:
+
+   - In VSCode, press Ctrl+Shift+X (or Cmd+Shift+X on macOS) to open the Extensions view.
+
+2. Install From VSIX:
+
+   - Click the three dots (...) in the Extensions view (top-right corner).
+   - Select "Install from VSIX...".
+   - Navigate to your .vsix file and select it.
+
+3. Verify Installation:
+
+   - Once installed, your extension will appear in the list of installed extensions.
+   - You should see its name (e.g., formatlogs) with the version number.
+
 ### 1.0.0
 
 Initial release of explorelogs
