@@ -17,6 +17,7 @@ Users appreciate release notes as you update your extension.
 ## To install locally
 
 ```sh
+# To generate the .vsix file
 npm install -g vsce
 vsce package
 ```
